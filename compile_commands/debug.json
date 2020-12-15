@@ -1,0 +1,7 @@
+[
+          {
+            "directory": "C:/Users/TroyN/Lua/premake-export-test",
+            "file": "C:/Users/TroyN/Lua/premake-export-test/Main.cpp",
+            "command": "cc -MMD -MP -DDEBUG -IC:/Users/TroyN/Lua/premake-export-test/vendor/spdlog/include -g -o C:/Users/TroyN/Lua/premake-export-test/obj/Debug/Main.o -MF C:/Users/TroyN/Lua/premake-export-test/obj/Debug/Main.d -c C:/Users/TroyN/Lua/premake-export-test/Main.cpp"
+          }
+]

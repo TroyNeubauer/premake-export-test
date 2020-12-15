@@ -1,4 +1,6 @@
 -- premake5.lua
+require "export-compile-commands"
+
 workspace "Test"
    configurations { "Debug", "Release" }
 

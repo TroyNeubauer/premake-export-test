@@ -1,5 +1,9 @@
 Makefile
 *.make
+
+*.sln
+*.vcxproj*
+
 bin/
 obj/
-
+.vs/
