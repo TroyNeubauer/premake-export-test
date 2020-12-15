@@ -1,0 +1,6 @@
+[submodule "export-compile-commands"]
+	path = export-compile-commands
+	url = https://github.com/null-black/premake-export-compile-commands.git
+[submodule "vendor/spdlog"]
+	path = vendor/spdlog
+	url = https://github.com/gabime/spdlog
