@@ -2,22 +2,26 @@
 require "export-compile-commands"
 
 workspace "Test"
-   configurations { "Debug", "Release" }
+	configurations { "Debug", "Release" }
+	language "C++"
+	systemversion "latest"
+	staticruntime "on"
+	architecture "x86_64"
 
 project "Test"
-   kind "ConsoleApp"
-   language "C++"
-   targetdir "bin/%{cfg.buildcfg}"
+	kind "ConsoleApp"
+	language "C++"
+	cppdialect "C++17"
 
-   files { "*.h", "*.cpp" }
-   includedirs { "vendor/spdlog/include/" }
-   defines {  }
+	targetdir "bin/%{cfg.buildcfg}"
 
-   filter "configurations:Debug"
-      defines { "DEBUG" }
-      symbols "On"
+	files { "*.h", "*.cpp" }
+	includedirs { "vendor/spdlog/include/" }
+	defines {  }
 
-   filter "configurations:Release"
-      defines { "NDEBUG" }
-      optimize "On"
+	filter "configurations:Debug"
+		symbols "On"
+
+	filter "configurations:Release"
+		optimize "On"
 

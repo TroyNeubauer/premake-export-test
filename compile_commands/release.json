@@ -1,7 +1,7 @@
 [
           {
-            "directory": "C:/Users/TroyN/Lua/premake-export-test",
-            "file": "C:/Users/TroyN/Lua/premake-export-test/Main.cpp",
-            "command": "cc -MMD -MP -DNDEBUG -IC:/Users/TroyN/Lua/premake-export-test/vendor/spdlog/include -O2 -o C:/Users/TroyN/Lua/premake-export-test/obj/Release/Main.o -MF C:/Users/TroyN/Lua/premake-export-test/obj/Release/Main.d -c C:/Users/TroyN/Lua/premake-export-test/Main.cpp"
+            "directory": "/home/troy/Lua/premake-export-test",
+            "file": "/home/troy/Lua/premake-export-test/Main.cpp",
+            "command": "cc -MMD -MP -I/home/troy/Lua/premake-export-test/vendor/spdlog/include -m64 -O2 -o /home/troy/Lua/premake-export-test/obj/Release/Main.o -MF /home/troy/Lua/premake-export-test/obj/Release/Main.d -c /home/troy/Lua/premake-export-test/Main.cpp"
           }
 ]
